@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a29058a-eb72-4d3c-8689-746d9b3f6421" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/web/images/dart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/web/images/flutter.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/web/images/google.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/lib/src/models/models.g.dart" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/common/lib/src/models/message.dart" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/common/lib/src/models/message.g.dart" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/common/lib/src/models/user.dart" afterPath="" />
@@ -60,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="138" column="46" lean-forward="true" selection-start-line="138" selection-start-column="46" selection-end-line="138" selection-end-column="46" />
+            <state relative-caret-position="2373">
+              <caret line="143" column="17" lean-forward="true" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -89,6 +93,18 @@
               <caret line="61" column="41" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.dart" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/lib/src/models/models.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+              <folding>
+                <element signature="e#23#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -975,12 +991,12 @@
       <workItem from="1497288685081" duration="3271000" />
       <workItem from="1498864239873" duration="77000" />
       <workItem from="1498864342297" duration="1574000" />
-      <workItem from="1500519288424" duration="5445000" />
+      <workItem from="1500519288424" duration="5732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10367000" />
+    <option name="totallyTimeSpent" value="10654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1004,9 +1020,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33295584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33295584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21911922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1398,16 +1414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/lib/src/models/models.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="e#23#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/tool/build.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -1448,10 +1454,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="138" column="46" lean-forward="true" selection-start-line="138" selection-start-column="46" selection-end-line="138" selection-end-column="46" />
+        <state relative-caret-position="2373">
+          <caret line="143" column="17" lean-forward="true" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/lib/src/models/models.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="e#23#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
