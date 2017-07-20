@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a29058a-eb72-4d3c-8689-746d9b3f6421" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/src/widgets/chat_home.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/src/widgets/chat_login.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/lib/src/widgets/chat_message_list.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.dart_tool/build/8b15f8d3f8fca11a6f49638044e84a3a/asset_graph.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.dart_tool/build/a037f10cf0ef056960e3437d50a6c6b5/asset_graph.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.dart_tool/build/b096f58c82aeaa5311d554e5b2fa4ce4/asset_graph.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.packages" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/dart_style.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/argument_list_visitor.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/call_chain_visitor.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/chunk.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/chunk_builder.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/dart_formatter.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/debug.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/error_listener.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/exceptions.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/fast_hash.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/formatter_options.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/io.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/line_splitting/line_splitter.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/line_splitting/rule_set.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/line_splitting/solve_state.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/line_splitting/solve_state_queue.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/line_writer.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/nesting_builder.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/nesting_level.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/rule/argument.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/rule/combinator.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/rule/metadata.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/rule/rule.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/rule/type_argument.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/source_code.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/source_visitor.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/string_compare.dart" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/.pub/deps/debug/dart_style/lib/src/whitespace.dart" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/.gitignore" afterPath="$PROJECT_DIR$/client/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/lib/main.dart" afterPath="$PROJECT_DIR$/client/lib/main.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/lib/src/models/models.dart" afterPath="$PROJECT_DIR$/common/lib/src/models/models.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/pubspec.lock" afterPath="$PROJECT_DIR$/common/pubspec.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/pubspec.yaml" afterPath="$PROJECT_DIR$/common/pubspec.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/tool/phases.dart" afterPath="$PROJECT_DIR$/common/tool/phases.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/.gitignore" afterPath="$PROJECT_DIR$/server/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/lib/src/routes/controllers/auth.dart" afterPath="$PROJECT_DIR$/server/lib/src/routes/controllers/auth.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/lib/src/services/message.dart" afterPath="$PROJECT_DIR$/server/lib/src/services/message.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/lib/src/services/user.dart" afterPath="$PROJECT_DIR$/server/lib/src/services/user.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,18 +16,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="auth.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/lib/src/routes/controllers/auth.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#41#89#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="chat_home.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/lib/src/widgets/chat_home.dart">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat_message_list.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chat_message_list.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/lib/src/widgets/chat_message_list.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -94,6 +36,19 @@
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="273">
+                <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -229,6 +184,7 @@
         <option value="$PROJECT_DIR$/client/lib/main.dart" />
         <option value="$PROJECT_DIR$/server/lib/src/services/user.dart" />
         <option value="$PROJECT_DIR$/server/lib/src/services/message.dart" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1077,12 +1033,12 @@
       <workItem from="1498864239873" duration="77000" />
       <workItem from="1498864342297" duration="1574000" />
       <workItem from="1500519288424" duration="6489000" />
-      <workItem from="1500567060018" duration="8047000" />
+      <workItem from="1500567060018" duration="8692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19458000" />
+    <option name="totallyTimeSpent" value="20103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1110,8 +1066,8 @@
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35220838" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33295584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22234157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22234157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1381,17 +1337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="189">
-            <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/tool/phases.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1537,6 +1482,17 @@
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="273">
+            <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
