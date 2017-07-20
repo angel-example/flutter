@@ -1,8 +1,16 @@
+import 'dart:math' as math;
 import 'package:angel_common/angel_common.dart';
 import 'package:angel_framework/hooks.dart' as hooks;
 import 'package:crypto/crypto.dart' show sha256;
 import 'package:random_string/random_string.dart' as rs;
-import '../validators/user.dart';
+// import '../validators/user.dart';
+
+const List<String> avatars = const [
+  'dart.png',
+  'favicon.png',
+  'flutter.jpg',
+  'google.png'
+];
 
 /// Sets up a service mounted at `api/users`.
 ///
@@ -45,6 +53,15 @@ configureServer() {
               hashPassword(e.data['password'], salt, app.jwt_secret)
           ..['salt'] = salt;
       });
+
+    // Choose a random avatar when a new user is created.
+    var rnd = new math.Random();
+
+    service.beforeCreated.listen((HookedServiceEvent e) {
+      var avatar = avatars[rnd.nextInt(avatars.length)];
+      print('Setting avatar to $avatar');
+      e.data['avatar'] = avatar;
+    });
 
     // Remove sensitive data from serialized JSON.
     service.afterAll(hooks.remove(['password', 'salt']));

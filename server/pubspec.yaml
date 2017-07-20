@@ -9,6 +9,7 @@ dependencies:
   angel_hot: "^1.0.0-rc.1"
   angel_multiserver: "^1.0.0"
   angel_seeder: ^1.0.0
+  angel_security: ^1.0.0
   angel_websocket: ^1.0.0
   common:
     path: ../common

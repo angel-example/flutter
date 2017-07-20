@@ -133,7 +133,13 @@ class ChatMessageList extends StatelessWidget {
               itemCount: messages.length,
               itemBuilder: (_, int i) {
                 return new ListTile(
-                  title: new Text(messages[i].text),
+                  leading: new Image.network(
+                      'http://10.134.80.167:3000/images/${messages[i].user.avatar}'),
+                  title: new Text(
+                    messages[i].user.username,
+                    style: new TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  subtitle: new Text(messages[i].text),
                 );
               }),
         ),
