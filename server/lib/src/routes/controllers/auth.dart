@@ -61,11 +61,5 @@ class AuthController extends Controller {
   }
 
   @Expose('/local', method: 'POST')
-  login() => waterfall([
-        (RequestContext req) async {
-          print(await req.lazyBody());
-          return true;
-        },
-        auth.authenticate('local')
-      ]);
+  login() => auth.authenticate('local');
 }
