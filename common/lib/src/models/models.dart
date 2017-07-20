@@ -1,5 +1,5 @@
 library common.models;
-import 'package:angel_framework/common.dart';
+import 'package:angel_model/angel_model.dart';
 import 'package:angel_serialize/angel_serialize.dart';
 part 'models.g.dart';
 

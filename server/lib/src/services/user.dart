@@ -1,6 +1,7 @@
 import 'dart:math' as math;
 import 'package:angel_common/angel_common.dart';
 import 'package:angel_framework/hooks.dart' as hooks;
+import 'package:angel_websocket/hooks.dart' as ws;
 import 'package:crypto/crypto.dart' show sha256;
 import 'package:random_string/random_string.dart' as rs;
 // import '../validators/user.dart';
@@ -19,9 +20,7 @@ const List<String> avatars = const [
 /// so that users are not tied into using just one database. :)
 configureServer() {
   return (Angel app) async {
-    // A TypedService can be used to serialize and deserialize data to a class, somewhat like an ORM.
-    //
-    // See here: https://github.com/angel-dart/angel/wiki/TypedService
+    // Store data in-memory.
     app.use('/api/users', new MapService());
 
     // Configure hooks for the user service.
@@ -33,33 +32,29 @@ configureServer() {
 
     var service = app.service('api/users') as HookedService;
 
-    // Prevent clients from doing anything to the `users` service,
-    // apart from reading a single user's data.
+    // Clients can't create, modify, update, or remove users.
+    //
+    // Refrain from broadcasting these events via WebSockets.
     service.before([
-      //HookedServiceEvent.INDEXED,
       HookedServiceEvent.CREATED,
       HookedServiceEvent.MODIFIED,
       HookedServiceEvent.UPDATED,
       HookedServiceEvent.REMOVED
-    ], hooks.disable());
+    ], hooks.chainListeners([hooks.disable(), ws.doNotBroadcast()]));
 
-    // Validate new users, and also hash their passwords.
-    service.beforeCreated
-      // ..listen(validateEvent(CREATE_USER))
-      ..listen((e) {
-        var salt = rs.randomAlphaNumeric(12);
-        e.data
-          ..['password'] =
-              hashPassword(e.data['password'], salt, app.jwt_secret)
-          ..['salt'] = salt;
-      });
+    // Hash user passwords.
+    service.beforeCreated.listen((e) {
+      var salt = rs.randomAlphaNumeric(12);
+      e.data
+        ..['password'] = hashPassword(e.data['password'], salt, app.jwt_secret)
+        ..['salt'] = salt;
+    });
 
     // Choose a random avatar when a new user is created.
     var rnd = new math.Random();
 
     service.beforeCreated.listen((HookedServiceEvent e) {
       var avatar = avatars[rnd.nextInt(avatars.length)];
-      print('Setting avatar to $avatar');
       e.data['avatar'] = avatar;
     });
 

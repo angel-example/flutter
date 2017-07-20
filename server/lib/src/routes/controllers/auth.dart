@@ -30,20 +30,19 @@ class AuthController extends Controller {
     return (String username, String password) async {
       Iterable<User> users = (await userService.index({
         'query': {'username': username}
-      })).map(User.parse);
+      }))
+          .map(User.parse);
 
-      var u = users.firstWhere((user) {
-        var hash = hashPassword(password, user.salt, app.jwt_secret);
-        return user.username == username && user.password == hash;
-      }, orElse: () => null);
-
-      if (u == null) {
+      if (users.isNotEmpty) {
+        return users.firstWhere((user) {
+          var hash = hashPassword(password, user.salt, app.jwt_secret);
+          return user.username == username && user.password == hash;
+        }, orElse: () => null);
+      } else {
         // Let's just make a new user, because I am lazy.
-        u = await app.service('api/users').create(
+        return await app.service('api/users').create(
             {'username': username, 'password': password}).then(User.parse);
       }
-
-      return u;
     };
   }
 

@@ -2,6 +2,7 @@ import 'package:angel_common/angel_common.dart';
 import 'package:angel_framework/hooks.dart' as hooks;
 import 'package:angel_relations/angel_relations.dart' as relations;
 import 'package:angel_security/hooks.dart' as auth;
+import 'package:angel_websocket/hooks.dart' as ws;
 
 AngelConfigurer configureServer() {
   return (Angel app) async {
@@ -16,7 +17,7 @@ AngelConfigurer configureServer() {
       HookedServiceEvent.MODIFIED,
       HookedServiceEvent.UPDATED,
       HookedServiceEvent.REMOVED
-    ], hooks.disable());
+    ], hooks.chainListeners([hooks.disable(), ws.doNotBroadcast()]));
 
     // Each message should have a `user_id` pointing to the user who sent it.
     //
