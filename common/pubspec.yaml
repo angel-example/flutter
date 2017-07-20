@@ -1,0 +1,6 @@
+name: common
+dependencies:
+  angel_framework: ^1.0.0
+  angel_serialize: ^1.0.0-alpha
+dev_dependencies:
+  build_runner: ^0.3.0

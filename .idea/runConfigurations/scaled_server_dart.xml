@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="scaled_server.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" singleton="true" nameIsGenerated="true">
+    <option name="filePath" value="$PROJECT_DIR$/server/bin/scaled_server.dart" />
+    <option name="workingDirectory" value="$PROJECT_DIR$/server" />
+    <method />
+  </configuration>
+</component>

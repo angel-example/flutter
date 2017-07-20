@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Start Server",
+            "type": "dart-cli",
+            "request": "launch",
+            "program": "${workspaceRoot}/bin/server.dart",
+            "checkedMode": true
+        },
+        {
+            "name": "Multi-Threaded Server",
+            "type": "dart-cli",
+            "request": "launch",
+            "program": "${workspaceRoot}/bin/scaled_server.dart",
+            "checkedMode": true
+        },
+        {
+            "name": "Load-Balanced Server",
+            "type": "dart-cli",
+            "request": "launch",
+            "program": "${workspaceRoot}/bin/multi_server.dart",
+            "checkedMode": true
+        }
+    ]
+}

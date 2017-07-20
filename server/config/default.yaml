@@ -1,0 +1,5 @@
+# Default server configuration.
+host: 0.0.0.0
+mongo_db: mongodb://localhost:27017/server
+port: 3000
+jwt_secret: "VU517um0wJMWcA7H8Uatje80WnfDkR0W"

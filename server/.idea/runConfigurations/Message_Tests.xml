@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+      <configuration default="false" name="Message Tests" type="DartTestRunConfigurationType" factoryName="Dart Test" singleton="true">
+        <option name="filePath" value="$PROJECT_DIR$/test/services/message_test.dart" />
+        <method />
+      </configuration>
+    </component>
