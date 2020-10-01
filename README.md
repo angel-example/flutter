@@ -24,7 +24,7 @@ This project is divided into three sub-projects:
 [![The Angel Framework](https://angel-dart.github.io/images/logo.png)](https://angel-dart.github.io)
 
 To learn more about the Angel framework, check out the 
-[main website](https://angel-dart.github.io) and
+[main website](https://angel-dart.github.io) &
 [wiki](https://github.com/angel-dart/angel/wiki).
 
 Also consider starring the [main repo](https://github.com/angel-dart/angel)! Thank you!
